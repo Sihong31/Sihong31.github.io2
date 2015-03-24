@@ -3,7 +3,7 @@ html{
 }
 
 h1{
-	color:white;
+	color:black;
 	font-family:Arial;
 	font-size:5em;
 	/*background-color:#558C89;*/
@@ -14,7 +14,7 @@ h1{
 }
 
 h2{
-	color:white;
+	color:black;
 	font-family:Arial;
 	font-size:3em;
     /*background-color:#558C89;*/
@@ -31,7 +31,7 @@ h4{
 }
 
 p {
-	color:white;
+	color:black;
 	font-family:Abril Fatface;
 	font-size:1em;
 
@@ -87,7 +87,7 @@ div.image{
 	padding:20px;
 	border:3px solid:gray;
 	float:right;
-	
+
 
 
 }
