@@ -1,0 +1,87 @@
+html{
+	background-color:beige;
+	
+}
+
+h1{
+	color:black;
+	font-family:Arial;
+	font-size:5em;
+	width:100%;
+	border-bottom:3px solid #3964C3;
+	margin-bottom:.3em;
+}
+
+h2{color:black;
+	font-family:Arial;
+}
+
+h3{
+	color:black;
+	font-family:Arial;
+}
+
+p{color:black;
+	font-family:Calibri;
+}
+
+li{
+	color:black;
+	font-family:Calibri;
+	font-weight:bold;
+}
+
+a:link{
+	color:blue;
+}
+
+a:hover{
+	color:red;
+}
+
+
+}
+#divsection{
+	text-align:center;
+	/*This centers my 3 inlined boxes, about me, my projects, contact me*/
+}
+
+div.inline{
+	display:inline-block;
+	border: 3px solid #3964C3 ;
+	word-wrap:break-word;
+	padding: 5px;
+	margin-left:5em;
+}
+
+#image{
+	content:url(https://avatars3.githubusercontent.com/u/11001962?v=3&s=460);
+	height:150px;
+	width:150px;
+	background-color:#3964C3;
+	padding:20px;
+	border:1px solid #3964C3;
+	float:right;
+}
+
+#footer{
+	background-color:#3964C3;
+	width:100%;
+	height:25px;
+	border-top:1px solid #558C89;
+	bottom:0;
+	left:0;
+	position:absolute;
+	text-align:center;
+
+}
+/*at the bottom of page,in last section*/
+
+#footercolor{
+	color:white;
+}
+
+#bottompad{
+	padding-bottom:20px;
+}
+
