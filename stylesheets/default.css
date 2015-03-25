@@ -35,12 +35,16 @@ a:link{
 	color:blue;
 }
 
+a:visited{
+	color:#87CEEB;
+	
+}
 a:hover{
 	color:red;
 }
 
 
-}
+
 #divsection{
 	text-align:center;
 	/*This centers my 3 inlined boxes, about me, my projects, contact me*/
