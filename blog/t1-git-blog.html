@@ -1,28 +1,186 @@
-<!DOCTYPE html>
-<head>
-  <title>My Very First Blog Post with Phase-0</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sihong's Personal Website">
+    <meta name="author" content="Sihong">
+    <title>Sihong's Website</title>
+    <link href="../bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-3.3.4-dist/css/SihongIndex.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
 
-<main>
-  <h1>My Very First Blog Post with Phase-0</h1>
-  <h2>Tech Blog</h2>
-  <h4>3/18/2015</h4>
+  <!--Fixed navigation bar on top -->
 
-  <section>
-    <p>
-      So this is my first week of phase 0 and so far it has been a blast. The challenges have been “challenging” to say the least and has taken much of my brain power to figure out. There are many coding commands and steps taken through them that I have to memorize. And being the programming noob that I am, I had to go back numerous times to get my work in order.  So in this blog I am writing about version control and git through my own understanding of what they are. 
-    </p>
-    <p>
-      Version Control:
-      Using version control comes with many benefits. Using a version control system allows different programmers from all over the world to work on the same code without having to worry about overwriting others’ hard work. Version control gives programmers the flexibility to save their work anytime they feel like it is necessary so that if they make a mistake in the future they can quickly revert back to a safe file.  Version control can also act as a remote back-up in case something happens to your main computer or servers.
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 
-    </p>
-    <p>
-      Git keeps a “git log” of all the changes that you have made so that you can easily go through them and see various modifications, creations, or deletions, that were made. Github is widely used and is a great way to store and share code with others. Storing code on github can lead to self improvement when others offer constructive criticism of your code. 
-    </p>
+                <span class="sr-only">Toggle navigation</span>
 
-      <!-- copy and paste as many sections as you want to add paragraphs -->
-  </section>
-</main>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+            <a class="navbar-brand" href="SihongIndex.html">Sihong Huang</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="SihongIndex.html">Home</a><li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog Posts<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-header">Technical Blogs</li>
+                            <li><a href="t1-git-blog.html">Week 1 Tech Blog</a></li>
+                            <li><a href="t2-css-design.html">Week 2 Tech Blog</a></li>
+                            <li><a href="t3-arrays-hashes.html">Week 3 Tech Blog</a></li>
+                            <li><a href="t4-enumerable-methods.html">Week 4 Tech Blog</a></li>
+                            <li><a href="t5-ruby-classes.html">Week 5 Tech Blog</a></li>
+                            <li><a href="t6-oop-concepts.html">Week 6 Tech Blog</a></li>
+                            <li><a href="t7-JavaScript.html">Week 7 Tech Blog</a></li>
+                            <li><a href="t8-tech.html">Week 8 Tech Blog</a></li>
+
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Cultural Blogs</li>
+                            <li><a href="c1-chefs-kitchen.html">Week 1 Culture Blog</a></li>
+                            <li><a href="#">No Week 2 Blog</a></li>
+                            <li><a href="c3_thinking-style.html">Week 3 Culture Blog</a></li>
+                            <li><a href="c4-tech-issues.html">Week 4 Culture Blog</a></li>
+                            <li><a href="c5-feedback.html">Week 5 Culture Blog</a></li>
+                            <li><a href="c6-stereotype-threat.html">Week 6 Culture Blog</a></li>
+                            <li><a href="c7-values.html">Week 7 Culture Blog</a></li>
+                            <li><a href="c8-conflict.html">Week 8 Culture Blog</a></li>
+                            <li><a href="c9-questions.html">Week 9 Culture Blog</a></li>
+                        </ul>
+                </li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+        </div>
+    </div>
+</div>   
+
+<div class="container">
+    <div class="page-header">
+        <h1>Week 1 Tech Blog: GitHub</h1>
+      </div>
+
+
+      <div class="col-sm-4">
+        
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+
+            <h3 class="panel-title">Concepts Learned</h3>
+
+          </div>
+            <table class="table table-bordered table-striped">
+              <tbody>
+                <tr>
+                  <td>Tags</td>
+                  <td>GitHub, Version Control</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="thumbnail bg-grey text-align-left">
+          <h5>Date: 3/18/2015</h5>
+          
+        </div>
+
+    </div>
+
+      <div class="col-sm-8">
+        <div>
+          <p> 
+            So this is my first week of phase 0 and so far it has been a blast. The challenges have been “challenging” to say the least and has taken much of my brain power to figure out. There are many coding commands and steps taken through them that I have to memorize. And being the programming noob that I am, I had to go back numerous times to get my work in order.  So in this blog I am writing about version control and git through my own understanding of what they are. </p>
+
+          <p> 
+            <h4>Version Control:</h4>
+            Using version control comes with many benefits. Using a version control system allows different programmers from all over the world to work on the same code without having to worry about overwriting others’ hard work. Version control gives programmers the flexibility to save their work anytime they feel like it is necessary so that if they make a mistake in the future they can quickly revert back to a safe file.  Version control can also act as a remote back-up in case something happens to your main computer or servers.</p>
+
+          <p>
+            Git keeps a “git log” of all the changes that you have made so that you can easily go through them and see various modifications, creations, or deletions, that were made. Github is widely used and is a great way to store and share code with others. Storing code on github can lead to self improvement when others offer constructive criticism of your code. </p>
+        </div>
+      </div>  
+  
+
+
+<!-- Fixed Footer -->
+<div class = "navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container">
+        <div class="navbar-text pull-left">
+            <p class="p-text">Email: sihongspring2011@gmail.com</p>
+        </div>
+
+        <div class="navbar-text pull-right">
+            <a href="https://www.facebook.com/si.h.huang.9"><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="https://twitter.com/Sihong31"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.linkedin.com/profile/view?id=137834876&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin fa-2x"></i></a>
+        </div>
+     </div>
+</div>        
+
+<!--contact me modal-->
+<div class="modal fade" id="contact" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal" role="form">
+                <div class="modal-header">
+                    <h4>Contact</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="contact-name" class="col-sm-2 control-label">Name</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="contact-name" placeholder="First & Last Name">
+                        </div> 
+                    </div> 
+
+                    <div class="form-group">
+                        <label for="contact-email" class="col-sm-2 control-label">Email</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="contact-email" placeholder="example@domain.com">
+                        </div> 
+                    </div>     
+
+                    <div class="form-group">
+                        <label for="contact message" class="col-sm-2 control-label">Message</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="4"></textarea>
+                        </div> 
+                    </div>         
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn btn-default" data-dismiss="modal">Close</a>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>   
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="../bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
